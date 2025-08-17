@@ -9,170 +9,257 @@ z2
 !i10f 100
 cModel Technology
 Z0 dC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/simulation/modelsim
+Edisplay_7seg
+Z1 w1755413428
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z5 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd
+Z6 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd
+l0
+L5 1
+VR:Mm]]O3=lE4RZgo@61DN3
+!s100 @moC<Gn_P2z]c2YT?Bh2Y2
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1755413451
+!i10b 1
+Z9 !s108 1755413451.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
+Z11 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 12 display_7seg 0 22 R:Mm]]O3=lE4RZgo@61DN3
+!i122 1
+l15
+L14 40
+VWU;R^mj:cIkegL8cSNEK02
+!s100 CDE26T?5jYH12<d>fGVdT0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
 Efull_adder
-Z1 w1755399519
-Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z15 w1755399519
+R3
+R4
 !i122 0
 R0
-Z4 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
-Z5 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
+Z16 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
+Z17 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
 l0
 L5 1
 VBH5KefSj[mKDUUSoQG``=2
 !s100 i02>9T:zhEZTPP<279kP?0
-Z6 OV;C;2020.1;71
+R7
 31
-Z7 !s110 1755405054
+R8
 !i10b 1
-Z8 !s108 1755405054.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
-Z10 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
+R9
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
+Z19 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
 !i113 1
-Z11 o-93 -work work
-Z12 tExplicit 1 CvgOpt 0
+R12
+R13
 Abehavioral
-R2
 R3
-Z13 DEx4 work 10 full_adder 0 22 BH5KefSj[mKDUUSoQG``=2
+R4
+Z20 DEx4 work 10 full_adder 0 22 BH5KefSj[mKDUUSoQG``=2
 !i122 0
 l16
 L15 11
 VX;C[H6L616fcdWbiK0zB22
 !s100 66H:DV=FLo5n:HNkfOJSZ0
-R6
-31
 R7
-!i10b 1
+31
 R8
+!i10b 1
 R9
-R10
+R18
+R19
 !i113 1
-R11
 R12
+R13
 Esubtractor_1bit
-Z14 w1755404992
-R2
+Z21 w1755404992
 R3
-!i122 1
+R4
+!i122 2
 R0
-Z15 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
-Z16 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
+Z22 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
+Z23 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
 l0
 L4 1
 VD6EIXLaA^fIW1MNL92UBT3
 !s100 c=UinoNLe1EnL_MPbjnVK1
-R6
-31
 R7
-!i10b 1
+31
 R8
-Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
-Z18 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
+!i10b 1
+R9
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
+Z25 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
 !i113 1
-R11
 R12
-Astructural
 R13
-R2
+Astructural
+R20
 R3
-Z19 DEx4 work 15 subtractor_1bit 0 22 D6EIXLaA^fIW1MNL92UBT3
-!i122 1
+R4
+Z26 DEx4 work 15 subtractor_1bit 0 22 D6EIXLaA^fIW1MNL92UBT3
+!i122 2
 l17
 L14 20
 VPkG61n;1E^c2[<hc0Tg2@0
 !s100 JP];fRQ?aAQnkIOf=jN=D3
-R6
-31
 R7
-!i10b 1
+31
 R8
-R17
-R18
+!i10b 1
+R9
+R24
+R25
 !i113 1
-R11
 R12
+R13
 Esubtractor_4bit
-Z20 w1755400466
-R2
+Z27 w1755400466
 R3
-!i122 2
+R4
+!i122 3
 R0
-Z21 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
-Z22 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
+Z28 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
+Z29 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
 l0
 L4 1
 V;ma`3ClKECLzh;<;Mg>dk2
 !s100 bVn>4o_6bh87AgD^OejER0
-R6
+R7
 31
-Z23 !s110 1755405055
+Z30 !s110 1755413452
 !i10b 1
-Z24 !s108 1755405055.000000
-Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
-Z26 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
+Z31 !s108 1755413452.000000
+Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
+Z33 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
 !i113 1
-R11
 R12
+R13
 Astructural
-R19
-R2
+R26
 R3
-Z27 DEx4 work 15 subtractor_4bit 0 22 ;ma`3ClKECLzh;<;Mg>dk2
-!i122 2
+R4
+Z34 DEx4 work 15 subtractor_4bit 0 22 ;ma`3ClKECLzh;<;Mg>dk2
+!i122 3
 l16
 L14 19
 V70^g36;LQWGTe>gJMchFi2
 !s100 o7n<5BoMe4[De21?CXCY12
-R6
+R7
 31
-R23
+R30
 !i10b 1
-R24
-R25
-R26
+R31
+R32
+R33
 !i113 1
-R11
 R12
-Etb_subtractor
-Z28 w1755404588
-R2
+R13
+Etb_top_subtractor_fpga
+Z35 w1755411290
 R3
-!i122 3
+R4
+!i122 5
 R0
-Z29 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_subtractor.vhd
-Z30 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_subtractor.vhd
+Z36 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
+Z37 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
 l0
 L4 1
-VE4h<>Ca2<me0XOXK?DQ5D2
-!s100 al;BZiHgGMYZA3mE^RmIa3
-R6
+V=[TEWeJ42VCC^Y=e]TZ651
+!s100 Sl79DKb]B9fi2@mWDcU?S1
+R7
 31
-R23
+R30
 !i10b 1
-R24
-Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_subtractor.vhd|
-!s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_subtractor.vhd|
-!i113 1
-R11
-R12
-Asim
-R27
-R2
-R3
-DEx4 work 13 tb_subtractor 0 22 E4h<>Ca2<me0XOXK?DQ5D2
-!i122 3
-l12
-L7 43
-VL_714nE<=FR9RMDPFMzzl1
-!s100 2]>13a3:b=nBzAj8NL2nL1
-R6
-31
-R23
-!i10b 1
-R24
 R31
-Z32 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_subtractor.vhd|
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
+!s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
 !i113 1
-R11
 R12
+R13
+Abehavioral
+Z39 DEx4 work 19 top_subtractor_fpga 0 22 F]BOWPCQZhI>c[im;TM@N0
+R3
+R4
+DEx4 work 22 tb_top_subtractor_fpga 0 22 =[TEWeJ42VCC^Y=e]TZ651
+!i122 5
+l16
+L8 39
+V>WhNgM1<n799_O9YW@9TJ2
+!s100 94giTMOk[;YCKda_f[5Pc0
+R7
+31
+R30
+!i10b 1
+R31
+R38
+Z40 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
+!i113 1
+R12
+R13
+Etop_subtractor_fpga
+Z41 w1755411326
+R3
+R4
+!i122 4
+R0
+Z42 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd
+Z43 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd
+l0
+L4 1
+VF]BOWPCQZhI>c[im;TM@N0
+!s100 KI]oT0m6>YNhke8@[4hVL2
+R7
+31
+R30
+!i10b 1
+R31
+Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
+Z45 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
+!i113 1
+R12
+R13
+Astructural
+R2
+R14
+R34
+R3
+R4
+R39
+!i122 4
+l19
+L16 35
+V8;ZCAN:0RkF4n3`aALmWX3
+!s100 C62]Y5@cP8kLPHjO2e[UR2
+R7
+31
+R30
+!i10b 1
+R31
+R44
+R45
+!i113 1
+R12
+R13

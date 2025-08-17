@@ -1,0 +1,49 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity tb_top_subtractor_fpga is
+-- Testbench no tiene puertos
+end tb_top_subtractor_fpga;
+
+architecture Behavioral of tb_top_subtractor_fpga is
+    -- Señales internas para simular los switches y salidas
+    signal SW   : STD_LOGIC_VECTOR(8 downto 0); -- A[3:0], B[3:0], Bin
+    signal LED  : STD_LOGIC;
+    signal HEX0 : STD_LOGIC_VECTOR(6 downto 0);
+begin
+    -- Instanciación del diseño principal
+    UUT: entity work.top_subtractor_fpga
+        port map(
+            SW   => SW,
+            LED  => LED,
+            HEX0 => HEX0
+        );
+
+    -- Proceso para generar estímulos
+    stim_proc: process
+    begin
+        -- Caso 1: 5 - 3
+        SW <= "001100101"; -- B=3, A=5, Bin=1 si usas complemento a 2
+        wait for 10 ns;
+
+        -- Caso 2: 8 - 4
+        SW <= "010010001"; -- B=4, A=8, Bin=1
+        wait for 10 ns;
+
+        -- Caso 3: 6 - 9
+        SW <= "100101101"; -- B=9, A=6, Bin=1
+        wait for 10 ns;
+
+        -- Caso 4: 0 - 1
+        SW <= "000100001"; -- B=1, A=0, Bin=1
+        wait for 10 ns;
+
+        -- Caso 5: 15 - 7
+        SW <= "011110111"; -- B=7, A=15, Bin=1
+        wait for 10 ns;
+
+        -- Fin de simulación
+        wait;
+    end process;
+
+end Behavioral;

@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Sat Aug 16 22:30:02 2025
+Analysis & Elaboration Status : Successful - Sun Aug 17 00:50:36 2025
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : full_subtractor
-Top-level Entity Name : subtractor_4bit
+Top-level Entity Name : top_subtractor_fpga
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge

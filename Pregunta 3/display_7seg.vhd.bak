@@ -1,0 +1,52 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity display_7seg is
+    Port (
+        Diff   : in  STD_LOGIC_VECTOR(3 downto 0);  -- salida del subtractor
+        Bout   : in  STD_LOGIC;                     -- borrow out
+        segments : out STD_LOGIC_VECTOR(6 downto 0);-- a b c d e f g
+        sign     : out STD_LOGIC                     -- '-' si es negativo
+    );
+end display_7seg;
+
+architecture Behavioral of display_7seg is
+    signal value : INTEGER range 0 to 15;
+    signal magnitude : INTEGER range 0 to 9;
+begin
+    process(Diff, Bout)
+    begin
+        -- Determinar valor decimal real usando complemento a 2
+        if Bout = '0' then
+            value <= to_integer(unsigned(Diff)); -- positivo
+            sign  <= '0';
+        else
+            -- negativo: magnitud = complemento a 2
+            value <= - (16 - to_integer(unsigned(Diff)));
+            sign  <= '1';
+        end if;
+
+        -- Tomar magnitud absoluta para display
+        if value < 0 then
+            magnitude <= -value;
+        else
+            magnitude <= value;
+        end if;
+
+        -- Codificación a 7 segmentos (a-g)
+        case magnitude is
+            when 0 => segments <= "1111110";
+            when 1 => segments <= "0110000";
+            when 2 => segments <= "1101101";
+            when 3 => segments <= "1111001";
+            when 4 => segments <= "0110011";
+            when 5 => segments <= "1011011";
+            when 6 => segments <= "1011111";
+            when 7 => segments <= "1110000";
+            when 8 => segments <= "1111111";
+            when 9 => segments <= "1111011";
+            when others => segments <= "0000000"; -- apagar display si fuera >9
+        end case;
+    end process;
+end Behavioral;
