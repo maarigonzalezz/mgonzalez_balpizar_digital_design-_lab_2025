@@ -42,3 +42,45 @@ begin
     diff <= sum;
     bout <= not cout;  -- el borrow es el inverso del carry
 end Structural;
+
+-- full substractor (4 bits) --
+entity full_subtractor_4bit is
+    Port (
+        A    : in  STD_LOGIC_VECTOR(3 downto 0);
+        B    : in  STD_LOGIC_VECTOR(3 downto 0);
+        Bin  : in  STD_LOGIC;
+        Diff : out STD_LOGIC_VECTOR(3 downto 0);
+        Bout : out STD_LOGIC
+    );
+end full_subtractor_4bit;
+
+architecture Structural of full_subtractor_4bit is
+    signal borrow : STD_LOGIC_VECTOR(4 downto 0);
+
+    component full_subtractor
+        Port (
+            a    : in  STD_LOGIC;
+            b    : in  STD_LOGIC;
+            bin  : in  STD_LOGIC;
+            diff : out STD_LOGIC;
+            bout : out STD_LOGIC
+        );
+    end component;
+
+begin
+    -- inicializamos el borrow de entrada
+    borrow(0) <= Bin;
+
+    gen_sub: for i in 0 to 3 generate
+        U: full_subtractor
+            port map (
+                a    => A(i),
+                b    => B(i),
+                bin  => borrow(i),
+                diff => Diff(i),
+                bout => borrow(i+1)
+            );
+    end generate;
+
+    Bout <= borrow(4);
+end Structural;
