@@ -1,0 +1,61 @@
+|Contador_Parametrizado
+clk => clk.IN1
+reset => count_internal[0].ALOAD
+reset => count_internal[1].ALOAD
+reset => count_internal[2].ALOAD
+reset => count_internal[3].ALOAD
+reset => count_internal[4].ALOAD
+reset => count_internal[5].ALOAD
+initial_value[0] => count_internal[0].ADATA
+initial_value[1] => count_internal[1].ADATA
+initial_value[2] => count_internal[2].ADATA
+initial_value[3] => count_internal[3].ADATA
+initial_value[4] => count_internal[4].ADATA
+initial_value[5] => count_internal[5].ADATA
+cont => cont.IN1
+seg1[0] <= <GND>
+seg1[1] <= <GND>
+seg1[2] <= <GND>
+seg1[3] <= <GND>
+seg1[4] <= <GND>
+seg1[5] <= <GND>
+seg1[6] <= <GND>
+seg0[0] <= <GND>
+seg0[1] <= <GND>
+seg0[2] <= <GND>
+seg0[3] <= <GND>
+seg0[4] <= <GND>
+seg0[5] <= <GND>
+seg0[6] <= <GND>
+count[0] <= count_internal[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= count_internal[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= count_internal[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= count_internal[3].DB_MAX_OUTPUT_PORT_TYPE
+count[4] <= count_internal[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] <= count_internal[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador_Parametrizado|Debounce:db0
+clk => state.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => sync_1.CLK
+clk => sync_0.CLK
+btn_in => sync_0.DATAIN
+btn_out <= state.DB_MAX_OUTPUT_PORT_TYPE
+
+
