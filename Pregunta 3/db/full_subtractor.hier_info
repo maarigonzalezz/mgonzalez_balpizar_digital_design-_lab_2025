@@ -1,0 +1,113 @@
+|subtractor_4bit
+A[0] => subtractor_1bit:SUB0.A
+A[1] => subtractor_1bit:SUB1.A
+A[2] => subtractor_1bit:SUB2.A
+A[3] => subtractor_1bit:SUB3.A
+B[0] => subtractor_1bit:SUB0.B
+B[1] => subtractor_1bit:SUB1.B
+B[2] => subtractor_1bit:SUB2.B
+B[3] => subtractor_1bit:SUB3.B
+Bin => subtractor_1bit:SUB0.Bin
+Diff[0] <= subtractor_1bit:SUB0.Diff
+Diff[1] <= subtractor_1bit:SUB1.Diff
+Diff[2] <= subtractor_1bit:SUB2.Diff
+Diff[3] <= subtractor_1bit:SUB3.Diff
+Bout <= subtractor_1bit:SUB3.Bout
+
+
+|subtractor_4bit|subtractor_1bit:SUB0
+A => full_adder:FA.A
+A => Bout.IN0
+A => Bout.IN0
+B => Bout.IN1
+B => Bout.IN1
+B => full_adder:FA.B
+Bin => Bout.IN1
+Bin => full_adder:FA.Cin
+Diff <= full_adder:FA.Sum
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtractor_4bit|subtractor_1bit:SUB0|full_adder:FA
+A => p.IN0
+A => g.IN0
+B => p.IN1
+B => g.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtractor_4bit|subtractor_1bit:SUB1
+A => full_adder:FA.A
+A => Bout.IN0
+A => Bout.IN0
+B => Bout.IN1
+B => Bout.IN1
+B => full_adder:FA.B
+Bin => Bout.IN1
+Bin => full_adder:FA.Cin
+Diff <= full_adder:FA.Sum
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtractor_4bit|subtractor_1bit:SUB1|full_adder:FA
+A => p.IN0
+A => g.IN0
+B => p.IN1
+B => g.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtractor_4bit|subtractor_1bit:SUB2
+A => full_adder:FA.A
+A => Bout.IN0
+A => Bout.IN0
+B => Bout.IN1
+B => Bout.IN1
+B => full_adder:FA.B
+Bin => Bout.IN1
+Bin => full_adder:FA.Cin
+Diff <= full_adder:FA.Sum
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtractor_4bit|subtractor_1bit:SUB2|full_adder:FA
+A => p.IN0
+A => g.IN0
+B => p.IN1
+B => g.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtractor_4bit|subtractor_1bit:SUB3
+A => full_adder:FA.A
+A => Bout.IN0
+A => Bout.IN0
+B => Bout.IN1
+B => Bout.IN1
+B => full_adder:FA.B
+Bin => Bout.IN1
+Bin => full_adder:FA.Cin
+Diff <= full_adder:FA.Sum
+Bout <= Bout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|subtractor_4bit|subtractor_1bit:SUB3|full_adder:FA
+A => p.IN0
+A => g.IN0
+B => p.IN1
+B => g.IN1
+Cin => Sum.IN1
+Cin => Cout.IN1
+Sum <= Sum.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,80 @@
+# Reading pref.tcl
+# do full_subtractor_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:54 on Aug 16,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture Behavioral of full_adder
+# End time: 22:30:54 on Aug 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:54 on Aug 16,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity subtractor_1bit
+# -- Compiling architecture Structural of subtractor_1bit
+# -- Loading entity full_adder
+# End time: 22:30:54 on Aug 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:55 on Aug 16,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity subtractor_4bit
+# -- Compiling architecture Structural of subtractor_4bit
+# -- Loading entity subtractor_1bit
+# End time: 22:30:55 on Aug 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_subtractor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 22:30:55 on Aug 16,2025
+# vcom -reportprogress 300 -93 -work work C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_subtractor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_subtractor
+# -- Compiling architecture sim of tb_subtractor
+# -- Loading entity subtractor_4bit
+# End time: 22:30:55 on Aug 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs="+acc"  tb_subtractor
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work -voptargs=""+acc"" tb_subtractor 
+# Start time: 22:30:55 on Aug 16,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_subtractor(sim)
+# Loading work.subtractor_4bit(structural)
+# Loading work.subtractor_1bit(structural)
+# Loading work.full_adder(behavioral)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# End time: 22:37:57 on Aug 16,2025, Elapsed time: 0:07:02
+# Errors: 0, Warnings: 0
