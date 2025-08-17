@@ -1,0 +1,89 @@
+# Reading pref.tcl
+# do Decodificador_Binario_Gray_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 1 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:46 on Aug 16,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1" C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray.sv 
+# -- Compiling module Decodificador_binario_gray
+# 
+# Top level modules:
+# 	Decodificador_binario_gray
+# End time: 19:00:47 on Aug 16,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 1 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/decodificador.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:47 on Aug 16,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1" C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/decodificador.sv 
+# -- Compiling module decodificador
+# 
+# Top level modules:
+# 	decodificador
+# End time: 19:00:47 on Aug 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 1 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Hex_to_7seg_decoder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:47 on Aug 16,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1" C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Hex_to_7seg_decoder.sv 
+# -- Compiling module Hex_to_7seg_decoder
+# 
+# Top level modules:
+# 	Hex_to_7seg_decoder
+# End time: 19:00:47 on Aug 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 1 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:00:47 on Aug 16,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1" C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray_tb.sv 
+# -- Compiling module Decodificador_binario_gray_tb
+# 
+# Top level modules:
+# 	Decodificador_binario_gray_tb
+# End time: 19:00:47 on Aug 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Decodificador_binario_gray_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Decodificador_binario_gray_tb 
+# Start time: 19:00:47 on Aug 16,2025
+# Loading sv_std.std
+# Loading work.Decodificador_binario_gray_tb
+# Loading work.Decodificador_binario_gray
+# Loading work.decodificador
+# Loading work.Hex_to_7seg_decoder
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Tiempo | Binario | Gray | 7-seg
+# --------------------------------
+#   10   | 0000   | 0000   | 1000000
+#   20   | 0001   | 0001   | 1111001
+#   30   | 0010   | 0011   | 0110000
+#   40   | 0011   | 0010   | 0100100
+#   50   | 0100   | 0110   | 0000010
+#   60   | 0101   | 0111   | 1111000
+#   70 | 0110 | 0101 | 0010010
+#   80 | 0111 | 0100 | 0011001
+#   90 | 1000 | 1100 | 1000110
+#  100 | 1001 | 1101 | 0100001
+#  110 | 1010 | 1111 | 0001110
+#  120 | 1011 | 1110 | 0000110
+#  130 | 1100 | 1010 | 0001000
+#  140 | 1101 | 1011 | 0000011
+#  150 | 1110 | 1001 | 0011000
+#  160   | 1111   | 1000   | 0000000
+# End time: 19:03:46 on Aug 16,2025, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 0

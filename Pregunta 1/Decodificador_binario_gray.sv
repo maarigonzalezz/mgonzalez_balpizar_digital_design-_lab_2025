@@ -1,4 +1,4 @@
-module Decodificador_binario_gray (input logic A, B, C, D, output logic [7:0] seven_segment_pins);
+module Decodificador_binario_gray (input logic A, B, C, D, output logic [6:0] seven_segment_pins);
 
 	
 	wire [6:0] segments_from_bcd_units;
@@ -13,7 +13,7 @@ module Decodificador_binario_gray (input logic A, B, C, D, output logic [7:0] se
 		.B(B),
 		.C(C),
 		.D(D),
-		// salidas
+		// salidasDecodificador_binario_gray_tb
 		.s3(dec_result[3]),
 		.s2(dec_result[2]),
 		.s1(dec_result[1]),

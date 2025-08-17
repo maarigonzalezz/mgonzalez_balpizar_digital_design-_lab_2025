@@ -10,7 +10,6 @@ seven_segment_pins[3] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
 seven_segment_pins[4] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
 seven_segment_pins[5] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
 seven_segment_pins[6] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
-seven_segment_pins[7] << <GND>
 
 
 |Decodificador_binario_gray|decodificador:deco
