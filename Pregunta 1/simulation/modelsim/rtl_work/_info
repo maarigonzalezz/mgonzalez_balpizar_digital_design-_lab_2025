@@ -1,0 +1,118 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/simulation/modelsim
+vdecodificador
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1755392447
+!i10b 1
+!s100 Cl>ESEJjiFOHj^WR[ea=<3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Im@HVnLWG33oJ=anQTgW=i3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1755389852
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/decodificador.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/decodificador.sv
+!i122 1
+L0 1 10
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1755392447.000000
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/decodificador.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/decodificador.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1}
+Z9 tCvgOpt 0
+vDecodificador_binario_gray
+R1
+R2
+!i10b 1
+!s100 E:DEkQ]nGzGgmDDzMB9f80
+R3
+Ig5ANeEh4Jk9^3oG^BPo@c1
+R4
+S1
+R0
+w1755392336
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray.sv
+!i122 0
+L0 1 40
+R5
+r1
+!s85 0
+31
+!s108 1755392446.000000
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray.sv|
+!i113 1
+R7
+R8
+R9
+n@decodificador_binario_gray
+vDecodificador_binario_gray_tb
+R1
+R2
+!i10b 1
+!s100 zgUOX6`1zU1<N7Rc6I]672
+R3
+IB8>>bL[ZYB7ek:eB0<1YY3
+R4
+S1
+R0
+w1755392428
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray_tb.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray_tb.sv
+!i122 3
+L0 1 100
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Decodificador_binario_gray_tb.sv|
+!i113 1
+R7
+R8
+R9
+n@decodificador_binario_gray_tb
+vHex_to_7seg_decoder
+R1
+R2
+!i10b 1
+!s100 0I]2gGYDd8JDKaccQYW_P1
+R3
+I_Wg6]ML2Y0JHK6<?BY[Xo3
+R4
+S1
+R0
+w1755387586
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Hex_to_7seg_decoder.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Hex_to_7seg_decoder.sv
+!i122 2
+L0 1 106
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Hex_to_7seg_decoder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 1/Hex_to_7seg_decoder.sv|
+!i113 1
+R7
+R8
+R9
+n@hex_to_7seg_decoder

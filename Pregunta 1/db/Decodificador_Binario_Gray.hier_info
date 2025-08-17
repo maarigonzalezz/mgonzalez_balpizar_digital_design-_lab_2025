@@ -1,0 +1,70 @@
+|Decodificador_binario_gray
+A => A.IN1
+B => B.IN1
+C => C.IN1
+D => D.IN1
+seven_segment_pins[0] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
+seven_segment_pins[1] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
+seven_segment_pins[2] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
+seven_segment_pins[3] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
+seven_segment_pins[4] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
+seven_segment_pins[5] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
+seven_segment_pins[6] << Hex_to_7seg_decoder:bcd_decoder_unit.segments_out
+
+
+|Decodificador_binario_gray|decodificador:deco
+A => s2.IN0
+A => s3.DATAIN
+B => s2.IN1
+B => s1.IN0
+C => s1.IN1
+C => s0.IN0
+D => s0.IN1
+s3 <= A.DB_MAX_OUTPUT_PORT_TYPE
+s2 <= s2.DB_MAX_OUTPUT_PORT_TYPE
+s1 <= s1.DB_MAX_OUTPUT_PORT_TYPE
+s0 <= s0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Decodificador_binario_gray|Hex_to_7seg_decoder:bcd_decoder_unit
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[0] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[1] => segments_out.IN1
+hex_in[2] => segments_out.IN0
+hex_in[2] => segments_out.IN0
+hex_in[2] => segments_out.IN0
+hex_in[2] => segments_out.IN0
+hex_in[3] => segments_out.IN1
+hex_in[3] => segments_out.IN1
+hex_in[3] => segments_out.IN1
+hex_in[3] => segments_out.IN1
+segments_out[0] <= segments_out.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[1] <= segments_out.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[2] <= segments_out.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[3] <= segments_out.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[4] <= segments_out.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[5] <= segments_out.DB_MAX_OUTPUT_PORT_TYPE
+segments_out[6] <= segments_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
