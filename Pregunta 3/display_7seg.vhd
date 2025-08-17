@@ -17,16 +17,16 @@ begin
         variable temp_mag : unsigned(3 downto 0);         -- variable intermedia para magnitud
         variable mag     : STD_LOGIC_VECTOR(3 downto 0);  -- variable para asignar a la señal magnitude
     begin
-        -- Determinar magnitud usando complemento a 2
+        -- Determina la magnitud usando complemento a 2
         if Bout = '1' then
-            -- Número positivo: se muestra tal cual
+            -- Número negativo: se muestra el complemento
             mag := Diff;
             sign <= '1';
         else
-            -- Número negativo: calcular magnitud paso a paso
+            -- Número positivo: se calcula la magnitud paso a paso
             temp_mag := unsigned(not Diff) + 1;  -- complemento a 2
             mag := std_logic_vector(temp_mag);
-            sign <= '0';                         -- indicar negativo
+            sign <= '0';                         -- indica el positivo
         end if;
 
         -- Codificación de la magnitud a display de 7 segmentos

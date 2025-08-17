@@ -23,3 +23,6 @@ begin
         Cout <= g or (p and Cin);
     end process;
 end Behavioral;
+
+--Fuente: "Digital Design and Computer Architecture, ARM Edition"
+-- Autores: David Harris y Sarah Harris

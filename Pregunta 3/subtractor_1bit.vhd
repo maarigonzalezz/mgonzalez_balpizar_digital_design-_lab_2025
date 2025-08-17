@@ -15,7 +15,7 @@ architecture Structural of subtractor_1bit is
     signal B_not : STD_LOGIC;
     signal Cout  : STD_LOGIC;
 begin
-    -- Complementamos B para usar el full adder
+    -- Complemento de B para usar el full adder
     B_not <= not B;
 
     -- Full adder: Diff = A + NOT(B) + Bin

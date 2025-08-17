@@ -24,9 +24,9 @@ VR:Mm]]O3=lE4RZgo@61DN3
 !s100 @moC<Gn_P2z]c2YT?Bh2Y2
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1755413451
+Z8 !s110 1755414009
 !i10b 1
-Z9 !s108 1755413451.000000
+Z9 !s108 1755414009.000000
 Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
 Z11 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
 !i113 1
@@ -136,7 +136,7 @@ R25
 R12
 R13
 Esubtractor_4bit
-Z27 w1755400466
+Z27 w1755413984
 R3
 R4
 !i122 3
@@ -149,11 +149,11 @@ V;ma`3ClKECLzh;<;Mg>dk2
 !s100 bVn>4o_6bh87AgD^OejER0
 R7
 31
-Z30 !s110 1755413452
+Z30 !s110 1755414010
 !i10b 1
-Z31 !s108 1755413452.000000
-Z32 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
-Z33 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
+R9
+Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
+Z32 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
 !i113 1
 R12
 R13
@@ -161,7 +161,7 @@ Astructural
 R26
 R3
 R4
-Z34 DEx4 work 15 subtractor_4bit 0 22 ;ma`3ClKECLzh;<;Mg>dk2
+Z33 DEx4 work 15 subtractor_4bit 0 22 ;ma`3ClKECLzh;<;Mg>dk2
 !i122 3
 l16
 L14 19
@@ -171,20 +171,20 @@ R7
 31
 R30
 !i10b 1
+R9
 R31
 R32
-R33
 !i113 1
 R12
 R13
 Etb_top_subtractor_fpga
-Z35 w1755411290
+Z34 w1755411290
 R3
 R4
 !i122 5
 R0
-Z36 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
-Z37 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
+Z35 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
+Z36 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
 l0
 L4 1
 V=[TEWeJ42VCC^Y=e]TZ651
@@ -193,7 +193,7 @@ R7
 31
 R30
 !i10b 1
-R31
+Z37 !s108 1755414010.000000
 Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
 !i113 1
@@ -213,7 +213,7 @@ R7
 31
 R30
 !i10b 1
-R31
+R37
 R38
 Z40 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
 !i113 1
@@ -235,7 +235,7 @@ R7
 31
 R30
 !i10b 1
-R31
+R37
 Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
 Z45 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
 !i113 1
@@ -244,7 +244,7 @@ R13
 Astructural
 R2
 R14
-R34
+R33
 R3
 R4
 R39
@@ -257,7 +257,7 @@ R7
 31
 R30
 !i10b 1
-R31
+R37
 R44
 R45
 !i113 1
