@@ -1,265 +1,92 @@
 m255
 K4
 z2
-!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
 13
 !s112 1.1
 !i10d 8192
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/simulation/modelsim
-Edisplay_7seg
-Z1 w1755413428
-Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z0 dC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/simulation/modelsim
+vBinTo7Seg
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1755481627
+!i10b 1
+!s100 Tl`gRcX6W:4MmPnPo76iL1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcPCcjm6NH9LG9nTe07Hj11
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1755472537
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv
 !i122 1
-R0
-Z5 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd
-Z6 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd
-l0
-L5 1
-VR:Mm]]O3=lE4RZgo@61DN3
-!s100 @moC<Gn_P2z]c2YT?Bh2Y2
-Z7 OV;C;2020.1;71
+L0 1 20
+Z5 OV;L;2020.1;71
+r1
+!s85 0
 31
-Z8 !s110 1755414009
-!i10b 1
-Z9 !s108 1755414009.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
-Z11 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
+Z6 !s108 1755481627.000000
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv|
 !i113 1
-Z12 o-93 -work work
-Z13 tExplicit 1 CvgOpt 0
-Abehavioral
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3}
+Z9 tCvgOpt 0
+n@bin@to7@seg
+vContador_Parametrizado
+R1
 R2
-R3
-R4
-Z14 DEx4 work 12 display_7seg 0 22 R:Mm]]O3=lE4RZgo@61DN3
-!i122 1
-l15
-L14 40
-VWU;R^mj:cIkegL8cSNEK02
-!s100 CDE26T?5jYH12<d>fGVdT0
-R7
-31
-R8
 !i10b 1
-R9
-R10
-R11
-!i113 1
-R12
-R13
-Efull_adder
-Z15 w1755399519
+!s100 ajjTBSMo`QPDl?lGDhH1N3
 R3
+I_C9HEKCflOdkkof^a353N0
 R4
+S1
+R0
+w1755480088
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv
 !i122 0
-R0
-Z16 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
-Z17 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
-l0
-L5 1
-VBH5KefSj[mKDUUSoQG``=2
-!s100 i02>9T:zhEZTPP<279kP?0
-R7
+L0 1 45
+R5
+r1
+!s85 0
 31
+R6
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv|
+!i113 1
+R7
 R8
-!i10b 1
 R9
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
-Z19 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
-!i113 1
-R12
-R13
-Abehavioral
-R3
-R4
-Z20 DEx4 work 10 full_adder 0 22 BH5KefSj[mKDUUSoQG``=2
-!i122 0
-l16
-L15 11
-VX;C[H6L616fcdWbiK0zB22
-!s100 66H:DV=FLo5n:HNkfOJSZ0
-R7
-31
-R8
-!i10b 1
-R9
-R18
-R19
-!i113 1
-R12
-R13
-Esubtractor_1bit
-Z21 w1755404992
-R3
-R4
-!i122 2
-R0
-Z22 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
-Z23 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
-l0
-L4 1
-VD6EIXLaA^fIW1MNL92UBT3
-!s100 c=UinoNLe1EnL_MPbjnVK1
-R7
-31
-R8
-!i10b 1
-R9
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
-Z25 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
-!i113 1
-R12
-R13
-Astructural
-R20
-R3
-R4
-Z26 DEx4 work 15 subtractor_1bit 0 22 D6EIXLaA^fIW1MNL92UBT3
-!i122 2
-l17
-L14 20
-VPkG61n;1E^c2[<hc0Tg2@0
-!s100 JP];fRQ?aAQnkIOf=jN=D3
-R7
-31
-R8
-!i10b 1
-R9
-R24
-R25
-!i113 1
-R12
-R13
-Esubtractor_4bit
-Z27 w1755413984
-R3
-R4
-!i122 3
-R0
-Z28 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
-Z29 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
-l0
-L4 1
-V;ma`3ClKECLzh;<;Mg>dk2
-!s100 bVn>4o_6bh87AgD^OejER0
-R7
-31
-Z30 !s110 1755414010
-!i10b 1
-R9
-Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
-Z32 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
-!i113 1
-R12
-R13
-Astructural
-R26
-R3
-R4
-Z33 DEx4 work 15 subtractor_4bit 0 22 ;ma`3ClKECLzh;<;Mg>dk2
-!i122 3
-l16
-L14 19
-V70^g36;LQWGTe>gJMchFi2
-!s100 o7n<5BoMe4[De21?CXCY12
-R7
-31
-R30
-!i10b 1
-R9
-R31
-R32
-!i113 1
-R12
-R13
-Etb_top_subtractor_fpga
-Z34 w1755411290
-R3
-R4
-!i122 5
-R0
-Z35 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
-Z36 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
-l0
-L4 1
-V=[TEWeJ42VCC^Y=e]TZ651
-!s100 Sl79DKb]B9fi2@mWDcU?S1
-R7
-31
-R30
-!i10b 1
-Z37 !s108 1755414010.000000
-Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
-!s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
-!i113 1
-R12
-R13
-Abehavioral
-Z39 DEx4 work 19 top_subtractor_fpga 0 22 F]BOWPCQZhI>c[im;TM@N0
-R3
-R4
-DEx4 work 22 tb_top_subtractor_fpga 0 22 =[TEWeJ42VCC^Y=e]TZ651
-!i122 5
-l16
-L8 39
-V>WhNgM1<n799_O9YW@9TJ2
-!s100 94giTMOk[;YCKda_f[5Pc0
-R7
-31
-R30
-!i10b 1
-R37
-R38
-Z40 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
-!i113 1
-R12
-R13
-Etop_subtractor_fpga
-Z41 w1755411326
-R3
-R4
-!i122 4
-R0
-Z42 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd
-Z43 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd
-l0
-L4 1
-VF]BOWPCQZhI>c[im;TM@N0
-!s100 KI]oT0m6>YNhke8@[4hVL2
-R7
-31
-R30
-!i10b 1
-R37
-Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
-Z45 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
-!i113 1
-R12
-R13
-Astructural
+n@contador_@parametrizado
+vContador_Parametrizado_tb
+R1
 R2
-R14
-R33
-R3
-R4
-R39
-!i122 4
-l19
-L16 35
-V8;ZCAN:0RkF4n3`aALmWX3
-!s100 C62]Y5@cP8kLPHjO2e[UR2
-R7
-31
-R30
 !i10b 1
-R37
-R44
-R45
+!s100 I9kJ@mdC:m9^Iza7oYMKQ0
+R3
+IgF3JMiKQJ:7Q3iJ5=SPCn3
+R4
+S1
+R0
+w1755481599
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv
+!i122 2
+L0 2 197
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv|
 !i113 1
-R12
-R13
+R7
+R8
+R9
+n@contador_@parametrizado_tb
