@@ -1,0 +1,92 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/simulation/modelsim
+vBinTo7Seg
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1755481627
+!i10b 1
+!s100 Tl`gRcX6W:4MmPnPo76iL1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IcPCcjm6NH9LG9nTe07Hj11
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1755472537
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv
+!i122 1
+L0 1 20
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1755481627.000000
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work {+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3}
+Z9 tCvgOpt 0
+n@bin@to7@seg
+vContador_Parametrizado
+R1
+R2
+!i10b 1
+!s100 ajjTBSMo`QPDl?lGDhH1N3
+R3
+I_C9HEKCflOdkkof^a353N0
+R4
+S1
+R0
+w1755480088
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv
+!i122 0
+L0 1 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv|
+!i113 1
+R7
+R8
+R9
+n@contador_@parametrizado
+vContador_Parametrizado_tb
+R1
+R2
+!i10b 1
+!s100 I9kJ@mdC:m9^Iza7oYMKQ0
+R3
+IgF3JMiKQJ:7Q3iJ5=SPCn3
+R4
+S1
+R0
+w1755481599
+8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv
+FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv
+!i122 2
+L0 2 197
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv|
+!i113 1
+R7
+R8
+R9
+n@contador_@parametrizado_tb

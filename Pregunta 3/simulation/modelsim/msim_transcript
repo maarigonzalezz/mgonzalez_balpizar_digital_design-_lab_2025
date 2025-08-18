@@ -1,0 +1,105 @@
+# Reading pref.tcl
+# do Sumador_Parametrizado_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 3 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:47:07 on Aug 17,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3" C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv 
+# -- Compiling module Contador_Parametrizado
+# 
+# Top level modules:
+# 	Contador_Parametrizado
+# End time: 19:47:07 on Aug 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 3 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:47:07 on Aug 17,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3" C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv 
+# -- Compiling module BinTo7Seg
+# 
+# Top level modules:
+# 	BinTo7Seg
+# End time: 19:47:07 on Aug 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 3 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:47:07 on Aug 17,2025
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3" C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv 
+# -- Compiling module Contador_Parametrizado_tb
+# 
+# Top level modules:
+# 	Contador_Parametrizado_tb
+# End time: 19:47:07 on Aug 17,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Contador_Parametrizado_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Contador_Parametrizado_tb 
+# Start time: 19:47:07 on Aug 17,2025
+# Loading sv_std.std
+# Loading work.Contador_Parametrizado_tb
+# Loading work.Contador_Parametrizado
+# Loading work.BinTo7Seg
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# === Prueba contador 2 bits ===
+# Valor inicial 0
+# Valor final (2 bits): 01
+# 1
+# 
+# Valor final (2 bits): 10
+# 2
+# 
+# Valor final (2 bits): 11
+# 3
+# 
+# === Prueba contador 4 bits ===
+# Valor inicial 5
+# Valor final (4 bits): 0110
+# 0
+# 6
+# 
+# Valor final (4 bits): 0111
+# 0
+# 7
+# 
+# Valor final (4 bits): 1000
+# 0
+# 8
+# 
+# === Prueba contador 6 bits ===
+# Valor inicial 30
+# Valor final (6 bits): 011111
+# 3
+# 1
+# 
+# Valor final (6 bits): 100000
+# 3
+# 2
+# 
+# Valor final (6 bits): 100001
+# 3
+# 3
+# 
+# Valor final (6 bits): 100010
+# 3
+# 4
+# ** Note: $stop    : C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv(194)
+#    Time: 210 ns  Iteration: 0  Instance: /Contador_Parametrizado_tb
+# Break in Module Contador_Parametrizado_tb at C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv line 194
+# End time: 19:48:49 on Aug 17,2025, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0

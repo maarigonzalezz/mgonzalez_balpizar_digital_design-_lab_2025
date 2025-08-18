@@ -1,5 +1,10 @@
 |Contador_Parametrizado
-clk => clk.IN1
+clk => count_internal[0].CLK
+clk => count_internal[1].CLK
+clk => count_internal[2].CLK
+clk => count_internal[3].CLK
+clk => count_internal[4].CLK
+clk => count_internal[5].CLK
 reset => count_internal[0].ALOAD
 reset => count_internal[1].ALOAD
 reset => count_internal[2].ALOAD
@@ -12,50 +17,59 @@ initial_value[2] => count_internal[2].ADATA
 initial_value[3] => count_internal[3].ADATA
 initial_value[4] => count_internal[4].ADATA
 initial_value[5] => count_internal[5].ADATA
-cont => cont.IN1
-seg1[0] <= <GND>
-seg1[1] <= <GND>
-seg1[2] <= <GND>
-seg1[3] <= <GND>
-seg1[4] <= <GND>
-seg1[5] <= <GND>
-seg1[6] <= <GND>
-seg0[0] <= <GND>
-seg0[1] <= <GND>
-seg0[2] <= <GND>
-seg0[3] <= <GND>
-seg0[4] <= <GND>
-seg0[5] <= <GND>
-seg0[6] <= <GND>
-count[0] <= count_internal[0].DB_MAX_OUTPUT_PORT_TYPE
-count[1] <= count_internal[1].DB_MAX_OUTPUT_PORT_TYPE
-count[2] <= count_internal[2].DB_MAX_OUTPUT_PORT_TYPE
-count[3] <= count_internal[3].DB_MAX_OUTPUT_PORT_TYPE
-count[4] <= count_internal[4].DB_MAX_OUTPUT_PORT_TYPE
-count[5] <= count_internal[5].DB_MAX_OUTPUT_PORT_TYPE
+cont => count_internal[5].ENA
+cont => count_internal[4].ENA
+cont => count_internal[3].ENA
+cont => count_internal[2].ENA
+cont => count_internal[1].ENA
+cont => count_internal[0].ENA
+seg1[0] << BinTo7Seg:display_decenas.bin_to_7seg
+seg1[1] << BinTo7Seg:display_decenas.bin_to_7seg
+seg1[2] << BinTo7Seg:display_decenas.bin_to_7seg
+seg1[3] << BinTo7Seg:display_decenas.bin_to_7seg
+seg1[4] << BinTo7Seg:display_decenas.bin_to_7seg
+seg1[5] << BinTo7Seg:display_decenas.bin_to_7seg
+seg1[6] << BinTo7Seg:display_decenas.bin_to_7seg
+seg0[0] << BinTo7Seg:display_unidades.bin_to_7seg
+seg0[1] << BinTo7Seg:display_unidades.bin_to_7seg
+seg0[2] << BinTo7Seg:display_unidades.bin_to_7seg
+seg0[3] << BinTo7Seg:display_unidades.bin_to_7seg
+seg0[4] << BinTo7Seg:display_unidades.bin_to_7seg
+seg0[5] << BinTo7Seg:display_unidades.bin_to_7seg
+seg0[6] << BinTo7Seg:display_unidades.bin_to_7seg
+count[0] << count_internal[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] << count_internal[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] << count_internal[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] << count_internal[3].DB_MAX_OUTPUT_PORT_TYPE
+count[4] << count_internal[4].DB_MAX_OUTPUT_PORT_TYPE
+count[5] << count_internal[5].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|Contador_Parametrizado|Debounce:db0
-clk => state.CLK
-clk => counter[0].CLK
-clk => counter[1].CLK
-clk => counter[2].CLK
-clk => counter[3].CLK
-clk => counter[4].CLK
-clk => counter[5].CLK
-clk => counter[6].CLK
-clk => counter[7].CLK
-clk => counter[8].CLK
-clk => counter[9].CLK
-clk => counter[10].CLK
-clk => counter[11].CLK
-clk => counter[12].CLK
-clk => counter[13].CLK
-clk => counter[14].CLK
-clk => counter[15].CLK
-clk => sync_1.CLK
-clk => sync_0.CLK
-btn_in => sync_0.DATAIN
-btn_out <= state.DB_MAX_OUTPUT_PORT_TYPE
+|Contador_Parametrizado|BinTo7Seg:display_unidades
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+bin_to_7seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador_Parametrizado|BinTo7Seg:display_decenas
+bin[0] => Decoder0.IN3
+bin[1] => Decoder0.IN2
+bin[2] => Decoder0.IN1
+bin[3] => Decoder0.IN0
+bin_to_7seg[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+bin_to_7seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
