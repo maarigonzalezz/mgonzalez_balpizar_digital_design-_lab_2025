@@ -8,27 +8,27 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/simulation/modelsim
+Z0 dC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/simulation/modelsim
 Edisplay_7seg
-Z1 w1755413428
+Z1 w1755489877
 Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 !i122 1
 R0
-Z5 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd
-Z6 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd
+Z5 8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/display_7seg.vhd
+Z6 FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/display_7seg.vhd
 l0
 L5 1
 VR:Mm]]O3=lE4RZgo@61DN3
 !s100 @moC<Gn_P2z]c2YT?Bh2Y2
 Z7 OV;C;2020.1;71
 31
-Z8 !s110 1755414009
+Z8 !s110 1755490047
 !i10b 1
-Z9 !s108 1755414009.000000
-Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
-Z11 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/display_7seg.vhd|
+Z9 !s108 1755490047.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/display_7seg.vhd|
+Z11 !s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/display_7seg.vhd|
 !i113 1
 Z12 o-93 -work work
 Z13 tExplicit 1 CvgOpt 0
@@ -40,8 +40,8 @@ Z14 DEx4 work 12 display_7seg 0 22 R:Mm]]O3=lE4RZgo@61DN3
 !i122 1
 l15
 L14 40
-VWU;R^mj:cIkegL8cSNEK02
-!s100 CDE26T?5jYH12<d>fGVdT0
+VT_Rmzi2lhGOfaknJ0CH;Z3
+!s100 WEX;VVe2:XB0n_Rj6>4DC2
 R7
 31
 R8
@@ -53,13 +53,13 @@ R11
 R12
 R13
 Efull_adder
-Z15 w1755399519
+Z15 w1755471368
 R3
 R4
 !i122 0
 R0
-Z16 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
-Z17 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd
+Z16 8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/full_adder.vhd
+Z17 FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/full_adder.vhd
 l0
 L5 1
 VBH5KefSj[mKDUUSoQG``=2
@@ -69,8 +69,8 @@ R7
 R8
 !i10b 1
 R9
-Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
-Z19 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/full_adder.vhd|
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/full_adder.vhd|
+Z19 !s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/full_adder.vhd|
 !i113 1
 R12
 R13
@@ -94,24 +94,24 @@ R19
 R12
 R13
 Esubtractor_1bit
-Z21 w1755404992
+R15
 R3
 R4
 !i122 2
 R0
-Z22 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
-Z23 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd
+Z21 8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_1bit.vhd
+Z22 FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_1bit.vhd
 l0
 L4 1
 VD6EIXLaA^fIW1MNL92UBT3
 !s100 c=UinoNLe1EnL_MPbjnVK1
 R7
 31
-R8
+Z23 !s110 1755490048
 !i10b 1
-R9
-Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
-Z25 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_1bit.vhd|
+Z24 !s108 1755490048.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_1bit.vhd|
+Z26 !s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_1bit.vhd|
 !i113 1
 R12
 R13
@@ -119,7 +119,7 @@ Astructural
 R20
 R3
 R4
-Z26 DEx4 work 15 subtractor_1bit 0 22 D6EIXLaA^fIW1MNL92UBT3
+Z27 DEx4 work 15 subtractor_1bit 0 22 D6EIXLaA^fIW1MNL92UBT3
 !i122 2
 l17
 L14 20
@@ -127,80 +127,80 @@ VPkG61n;1E^c2[<hc0Tg2@0
 !s100 JP];fRQ?aAQnkIOf=jN=D3
 R7
 31
-R8
+R23
 !i10b 1
-R9
 R24
 R25
+R26
 !i113 1
 R12
 R13
 Esubtractor_4bit
-Z27 w1755413984
+R15
 R3
 R4
 !i122 3
 R0
-Z28 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
-Z29 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd
+Z28 8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_4bit.vhd
+Z29 FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_4bit.vhd
 l0
 L4 1
 V;ma`3ClKECLzh;<;Mg>dk2
 !s100 bVn>4o_6bh87AgD^OejER0
 R7
 31
-Z30 !s110 1755414010
+R23
 !i10b 1
-R9
-Z31 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
-Z32 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/subtractor_4bit.vhd|
+R24
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_4bit.vhd|
+Z31 !s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/subtractor_4bit.vhd|
 !i113 1
 R12
 R13
 Astructural
-R26
+R27
 R3
 R4
-Z33 DEx4 work 15 subtractor_4bit 0 22 ;ma`3ClKECLzh;<;Mg>dk2
+Z32 DEx4 work 15 subtractor_4bit 0 22 ;ma`3ClKECLzh;<;Mg>dk2
 !i122 3
 l16
-L14 19
-V70^g36;LQWGTe>gJMchFi2
-!s100 o7n<5BoMe4[De21?CXCY12
+L14 28
+VaX@OIPAOUXZ]H8gnb:UC^0
+!s100 2S]1Ez<cFSm5b`m>97V390
 R7
 31
-R30
+R23
 !i10b 1
-R9
+R24
+R30
 R31
-R32
 !i113 1
 R12
 R13
 Etb_top_subtractor_fpga
-Z34 w1755411290
+R15
 R3
 R4
 !i122 5
 R0
-Z35 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
-Z36 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd
+Z33 8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/tb_top_subtractor_fpga.vhd
+Z34 FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/tb_top_subtractor_fpga.vhd
 l0
 L4 1
 V=[TEWeJ42VCC^Y=e]TZ651
 !s100 Sl79DKb]B9fi2@mWDcU?S1
 R7
 31
-R30
+R23
 !i10b 1
-Z37 !s108 1755414010.000000
-Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
-!s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
+R24
+Z35 !s90 -reportprogress|300|-93|-work|work|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/tb_top_subtractor_fpga.vhd|
+!s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/tb_top_subtractor_fpga.vhd|
 !i113 1
 R12
 R13
 Abehavioral
-Z39 DEx4 work 19 top_subtractor_fpga 0 22 F]BOWPCQZhI>c[im;TM@N0
+Z36 DEx4 work 19 top_subtractor_fpga 0 22 F]BOWPCQZhI>c[im;TM@N0
 R3
 R4
 DEx4 work 22 tb_top_subtractor_fpga 0 22 =[TEWeJ42VCC^Y=e]TZ651
@@ -211,43 +211,43 @@ V>WhNgM1<n799_O9YW@9TJ2
 !s100 94giTMOk[;YCKda_f[5Pc0
 R7
 31
-R30
+R23
 !i10b 1
-R37
-R38
-Z40 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/tb_top_subtractor_fpga.vhd|
+R24
+R35
+Z37 !s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/tb_top_subtractor_fpga.vhd|
 !i113 1
 R12
 R13
 Etop_subtractor_fpga
-Z41 w1755411326
+R15
 R3
 R4
 !i122 4
 R0
-Z42 8C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd
-Z43 FC:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd
+Z38 8C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/top_subtractor_fpga.vhd
+Z39 FC:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/top_subtractor_fpga.vhd
 l0
 L4 1
 VF]BOWPCQZhI>c[im;TM@N0
 !s100 KI]oT0m6>YNhke8@[4hVL2
 R7
 31
-R30
+R23
 !i10b 1
-R37
-Z44 !s90 -reportprogress|300|-93|-work|work|C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
-Z45 !s107 C:/Users/space/Desktop/Brayan/Taller_Digitales/Taller_1/Pregunta 3/top_subtractor_fpga.vhd|
+R24
+Z40 !s90 -reportprogress|300|-93|-work|work|C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/top_subtractor_fpga.vhd|
+Z41 !s107 C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 2/top_subtractor_fpga.vhd|
 !i113 1
 R12
 R13
 Astructural
 R2
 R14
-R33
+R32
 R3
 R4
-R39
+R36
 !i122 4
 l19
 L16 35
@@ -255,11 +255,11 @@ V8;ZCAN:0RkF4n3`aALmWX3
 !s100 C62]Y5@cP8kLPHjO2e[UR2
 R7
 31
-R30
+R23
 !i10b 1
-R37
-R44
-R45
+R24
+R40
+R41
 !i113 1
 R12
 R13
