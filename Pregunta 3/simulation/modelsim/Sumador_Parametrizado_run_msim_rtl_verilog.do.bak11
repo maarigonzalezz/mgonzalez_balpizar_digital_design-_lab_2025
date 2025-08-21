@@ -6,6 +6,7 @@ vlib rtl_work
 vmap work rtl_work
 
 vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 3 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado.sv}
+vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 3 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Debounce.sv}
 vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 3 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/BinTo7Seg.sv}
 
 vlog -sv -work work +incdir+C:/Users/gonza/Desktop/lab1\ taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta\ 3 {C:/Users/gonza/Desktop/lab1 taller/mgonzalez_balpizar_digital_design-_lab_2025/Pregunta 3/Contador_Parametrizado_tb.sv}

@@ -69,4 +69,27 @@ set_global_assignment -name EDA_TEST_BENCH_NAME Contador_Parametrizado_tb -secti
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id Contador_Parametrizado_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME Contador_Parametrizado_tb -section_id Contador_Parametrizado_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE Contador_Parametrizado_tb.sv -section_id Contador_Parametrizado_tb
+set_location_assignment PIN_AJ4 -to clk
+set_location_assignment PIN_AK4 -to cont
+set_location_assignment PIN_AB30 -to initial_value[0]
+set_location_assignment PIN_Y27 -to initial_value[1]
+set_location_assignment PIN_AB28 -to initial_value[2]
+set_location_assignment PIN_AC30 -to initial_value[3]
+set_location_assignment PIN_W25 -to initial_value[4]
+set_location_assignment PIN_V25 -to initial_value[5]
+set_location_assignment PIN_AA30 -to reset
+set_location_assignment PIN_W17 -to seg0[0]
+set_location_assignment PIN_V18 -to seg0[1]
+set_location_assignment PIN_AG17 -to seg0[2]
+set_location_assignment PIN_AG16 -to seg0[3]
+set_location_assignment PIN_AH17 -to seg0[4]
+set_location_assignment PIN_AG18 -to seg0[5]
+set_location_assignment PIN_AH18 -to seg0[6]
+set_location_assignment PIN_V17 -to seg1[6]
+set_location_assignment PIN_AE17 -to seg1[5]
+set_location_assignment PIN_AE18 -to seg1[4]
+set_location_assignment PIN_AD17 -to seg1[3]
+set_location_assignment PIN_AE16 -to seg1[2]
+set_location_assignment PIN_V16 -to seg1[1]
+set_location_assignment PIN_AF16 -to seg1[0]
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

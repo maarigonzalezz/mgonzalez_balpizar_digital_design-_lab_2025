@@ -11,17 +11,17 @@ module Contador_Parametrizado #(parameter N = 6)(
 	 logic cont_clean;
 	 logic [3:0] unidades, decenas;
 	 
-	 //Debounce db0 (
-        //.clk(clk),
-        //.btn_in(cont),
-        //.btn_out(cont_clean)
-    //);
+	 Debounce db0 (
+        .clk(clk),
+        .btn_in(cont),
+        .btn_out(cont_clean)
+    );
 	 
 	 
     always_ff @(posedge clk or posedge reset) begin
         if (reset)
             count_internal <= initial_value;
-        else if (cont)
+        else if (~cont)
             count_internal <= count_internal + 1;
     end
 	 

@@ -17,7 +17,7 @@ module Contador_Parametrizado_tb();
     logic [3:0] count4;
     logic [5:0] count6;
 
-    // Instancias del contador parametrizado
+    // Instancias del contador 
     Contador_Parametrizado #(2) uut2 (
         .clk(clk),
         .reset(reset),
@@ -83,30 +83,36 @@ module Contador_Parametrizado_tb();
 		  $display("Valor inicial 0");
         reset = 1; #10;
         reset = 0; #10;
-        cont = 1;    // habilita incremento
+        cont = 0;    // habilita incremento
         // Simula un flanco de subida de clk
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;    // deshabilita
+        cont = 1;    // deshabilita
+		  assert(count2 == 2'b01)
+				else $error("Fallo en incremento 1: esperado=01, obtenido=%b", count2);
         $display("Valor final (2 bits): %b", count2);
 		  display_7seg(seg0_2bits);
 		  $write("\n");
-		  cont = 1;    // habilita incremento
-        // Simula un flanco de subida de clk
+		  cont = 0;    // habilita incremento
+        // Se vuelve a incrementar
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;    // deshabilita
+        cont = 1;    // deshabilita
+		  assert(count2 == 2'b10)
+				else $error("Fallo en incremento 2: esperado=10, obtenido=%b", count2);
         $display("Valor final (2 bits): %b", count2);
 		  display_7seg(seg0_2bits);
 		  $write("\n");
-		  cont = 1;    // habilita incremento
-        // Simula un flanco de subida de clk
+		  cont = 0;    // habilita incremento
+        // Se vuelve a incrementar
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;    // deshabilita
+        cont = 1;    // deshabilita
+		  assert(count2 == 2'b11)
+				else $error("Fallo en incremento 2: esperado=10, obtenido=%b", count2);
         $display("Valor final (2 bits): %b", count2);
 		  display_7seg(seg0_2bits);
 		  $write("\n");
@@ -119,29 +125,36 @@ module Contador_Parametrizado_tb();
 		  $display("Valor inicial 5");
         reset = 1; #10;
         reset = 0; #10;
-        cont = 1;
+        cont = 0; // habilita
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;
+        cont = 1; //deshabilita
+		  assert (count4 == 4'b0110)
+				else $error("ERROR: Se esperaba 0110 (6), se obtuvo %b", count4);
         $display("Valor final (4 bits): %b", count4);
 		  display_7seg(seg1_4bits);
 		  display_7seg(seg0_4bits);
 		  $write("\n");
-		  cont = 1;
+		  cont = 0; // habilita
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;
+        cont = 1; // deshabilita
+		  assert (count4 == 4'b0111)
+				else $error("ERROR: Se esperaba 0111 (7), se obtuvo %b", count4);
+		  
         $display("Valor final (4 bits): %b", count4);
 		  display_7seg(seg1_4bits);
 		  display_7seg(seg0_4bits);
 		  $write("\n");
-		  cont = 1;
+		  cont = 0; // habilita
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;
+        cont = 1; //deshabilita
+		  assert (count4 == 4'b1000)
+				else $error("ERROR: Se esperaba 1000 (8), se obtuvo %b", count4);
         $display("Valor final (4 bits): %b", count4);
 		  display_7seg(seg1_4bits);
 		  display_7seg(seg0_4bits);
@@ -155,38 +168,47 @@ module Contador_Parametrizado_tb();
 		  $display("Valor inicial 30");
         reset = 1; #10;
         reset = 0; #10;
-        cont = 1;
+        cont = 0;  //habilita
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;
+        cont = 1;   //deshabilita
+		  assert (count6 == 6'b011111)
+				else $error("ERROR: Se esperaba 011111 (31), se obtuvo %b", count6);
+		  
         $display("Valor final (6 bits): %b", count6);
 		  display_7seg(seg1_6bits);
 		  display_7seg(seg0_6bits);
 		  $write("\n");
-        cont = 1;
+        cont = 0; // habilita
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;
+        cont = 1;  //deshabilita 
+		  assert (count6 == 6'b100000)
+				else $error("ERROR: Se esperaba 100000 (32), se obtuvo %b", count6);
         $display("Valor final (6 bits): %b", count6);
 		  display_7seg(seg1_6bits);
 		  display_7seg(seg0_6bits);
 		  $write("\n");
-        cont = 1;
+        cont = 0; //habilita
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;
+        cont = 1; //deshabilita
+		  assert (count6 == 6'b100001)
+				else $error("ERROR: Se esperaba 100001 (33), se obtuvo %b", count6);
         $display("Valor final (6 bits): %b", count6);
 		  display_7seg(seg1_6bits);
 		  display_7seg(seg0_6bits);
 		  $write("\n");
-        cont = 1;
+        cont = 0; //habilita
         clk = 0; #5;
         clk = 1; #5;
         clk = 0; #5;
-        cont = 0;
+        cont = 1; //deshabilita
+		  assert (count6 == 6'b100010)
+				else $error("ERROR: Se esperaba 100010 (34), se obtuvo %b", count6);
         $display("Valor final (6 bits): %b", count6);
 		  display_7seg(seg1_6bits);
 		  display_7seg(seg0_6bits);

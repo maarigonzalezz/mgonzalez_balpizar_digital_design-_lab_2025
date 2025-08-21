@@ -1,10 +1,5 @@
 |Contador_Parametrizado
-clk => count_internal[0].CLK
-clk => count_internal[1].CLK
-clk => count_internal[2].CLK
-clk => count_internal[3].CLK
-clk => count_internal[4].CLK
-clk => count_internal[5].CLK
+clk => clk.IN1
 reset => count_internal[0].ALOAD
 reset => count_internal[1].ALOAD
 reset => count_internal[2].ALOAD
@@ -17,12 +12,7 @@ initial_value[2] => count_internal[2].ADATA
 initial_value[3] => count_internal[3].ADATA
 initial_value[4] => count_internal[4].ADATA
 initial_value[5] => count_internal[5].ADATA
-cont => count_internal[5].ENA
-cont => count_internal[4].ENA
-cont => count_internal[3].ENA
-cont => count_internal[2].ENA
-cont => count_internal[1].ENA
-cont => count_internal[0].ENA
+cont => cont.IN1
 seg1[0] << BinTo7Seg:display_decenas.bin_to_7seg
 seg1[1] << BinTo7Seg:display_decenas.bin_to_7seg
 seg1[2] << BinTo7Seg:display_decenas.bin_to_7seg
@@ -43,6 +33,30 @@ count[2] << count_internal[2].DB_MAX_OUTPUT_PORT_TYPE
 count[3] << count_internal[3].DB_MAX_OUTPUT_PORT_TYPE
 count[4] << count_internal[4].DB_MAX_OUTPUT_PORT_TYPE
 count[5] << count_internal[5].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador_Parametrizado|Debounce:db0
+clk => state.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => sync_1.CLK
+clk => sync_0.CLK
+btn_in => sync_0.DATAIN
+btn_out <= state.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Contador_Parametrizado|BinTo7Seg:display_unidades
