@@ -1,0 +1,34 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity subtractor_1bit is
+    Port (
+        A    : in  STD_LOGIC;
+        B    : in  STD_LOGIC;
+        Bin  : in  STD_LOGIC;
+        Diff : out STD_LOGIC;
+        Bout : out STD_LOGIC
+    );
+end subtractor_1bit;
+
+architecture Structural of subtractor_1bit is
+    signal B_not : STD_LOGIC;
+    signal sum   : STD_LOGIC;
+    signal c_out : STD_LOGIC;
+begin
+    -- Se complementa B y se suma con Bin (A - B = A + not(B) + Bin)
+    B_not <= not B;
+
+    FA: entity work.full_adder
+        port map (
+            A    => A,
+            B    => B_not,
+            Cin  => Bin,  -- este Bin aquí es en realidad el +1 para el complemento a 2
+            Sum  => Diff,
+            Cout => c_out
+        );
+
+    -- El borrow es el inverso del carry
+    Bout <= not c_out;
+
+end Structural;

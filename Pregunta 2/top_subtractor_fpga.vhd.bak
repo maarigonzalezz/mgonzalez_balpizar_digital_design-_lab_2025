@@ -1,0 +1,41 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity top_subtractor_fpga is
+    Port (
+        SW     : in  STD_LOGIC_VECTOR(8 downto 0); -- switches A, B, Bin
+        LED    : out STD_LOGIC;                     -- opcional, para Bout
+        HEX0   : out STD_LOGIC_VECTOR(6 downto 0)  -- display 7 segmentos
+    );
+end top_subtractor_fpga;
+
+architecture Structural of top_subtractor_fpga is
+    signal A, B, Diff : STD_LOGIC_VECTOR(3 downto 0);
+    signal Bin, Bout  : STD_LOGIC;
+begin
+    -- Asignar entradas desde switches
+    A   <= SW(3 downto 0);
+    B   <= SW(7 downto 4);
+    Bin <= SW(8);  -- borrow in
+
+    -- Instancia del subtractor de 4 bits
+    SUB4: entity work.subtractor_4bit
+        port map(
+            A    => A,
+            B    => B,
+            Bin  => Bin,
+            Diff => Diff,
+            Bout => Bout
+        );
+
+    -- Instancia del display hexadecimal
+    DISP: entity work.display_7seg_hex
+        port map(
+            value    => Diff,
+            segments => HEX0
+        );
+
+    -- Opcional: mostrar borrow out en LED
+    LED <= Bout;
+
+end Structural;

@@ -1,0 +1,77 @@
+`timescale 1ns/1ps
+
+module Contador_Parametrizado_tb;
+
+    // --- Señales genéricas ---
+    logic clk;
+    logic reset;
+    logic cont;
+    logic [5:0] initial_value;  // Max 6 bits
+    logic [5:0] count;          // Salida de 6 bits
+
+    // --- Reloj ---
+    initial clk = 0;
+    always #5 clk = ~clk; // 100 MHz → periodo 10ns (simulación rápida)
+
+    // --- Instancia del contador para 6 bits ---
+    Contador_Parametrizado #(.N(6)) dut6 (
+        .clk(clk),
+        .reset(reset),
+        .initial_value(initial_value),
+        .cont(cont),
+        .seg0(), .seg1(),
+        .count(count)
+    );
+
+    // --- Variables para auto-chequeo ---
+    logic [5:0] expected;
+
+    initial begin
+        $display("Starting testbench...");
+
+        // Inicializamos
+        reset = 1;
+        cont = 0;
+        initial_value = 6'd0;
+        #15;
+        reset = 0;
+
+        // Verificación inicial
+        expected = initial_value;
+        if (count !== expected) $display("ERROR at t=%0t: count=%0d expected=%0d", $time, count, expected);
+
+        // --- Simular pulsos ---
+        repeat (10) begin
+            cont = 1; #10;   // Botón presionado
+            cont = 0; #10;   // Botón liberado
+            expected = expected + 1;
+            if (count !== expected) $display("ERROR at t=%0t: count=%0d expected=%0d", $time, count, expected);
+        end
+
+        $display("Test 6 bits finished.");
+
+        // --- Para 4 bits ---
+        $display("Testing 4 bits...");
+        reset = 1; initial_value = 4'd0; #10; reset = 0;
+        expected = initial_value;
+        for (int i=0; i<20; i++) begin
+            cont = 1; #10; cont = 0; #10;
+            expected = (expected + 1) & 4'hF; // limitar a 4 bits
+            if (count[3:0] !== expected) $display("ERROR 4b t=%0t: count=%0d expected=%0d", $time, count[3:0], expected);
+        end
+
+        // --- Para 2 bits ---
+        $display("Testing 2 bits...");
+        reset = 1; initial_value = 2'd0; #10; reset = 0;
+        expected = initial_value;
+        for (int i=0; i<6; i++) begin
+            cont = 1; #10; cont = 0; #10;
+            expected = (expected + 1) & 2'h3; // limitar a 2 bits
+            if (count[1:0] !== expected) $display("ERROR 2b t=%0t: count=%0d expected=%0d", $time, count[1:0], expected);
+        end
+
+        $display("Testbench finished.");
+        $stop;
+    end
+
+endmodule
